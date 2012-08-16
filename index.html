@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Windowfixer by purebe</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/purebe/WindowFixer">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/purebe/WindowFixer/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/purebe/WindowFixer/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Windowfixer</h1>
+          <p>A simple utility application that centers and resizes a window by Window Title to given width and height.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/purebe">purebe</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h3>The Goal</h3>
+
+<p>This simple project came to be due to the nature of a free screen capturing program named: <a href="https://github.com/mosamosa/SCFH-DSF">SCFH DSF</a> (it's a GitHub project now!).  I wanted to stream a game called Warcraft III, and SCFH DSF wanted me to do it in windowed mode.  Unfortunately, the game does not support full-screen window mode, and because Windows Live Media Encoder 3.2 appears to want very specific input sizes (well, I should blame the encoder here I suppose :P) ... I had a problem!</p>
+
+<p>Thus: WindowFixer, the simple solution.</p>
+
+<h3>Batch Operations</h3>
+
+<p>Streaming with FME and SCFH DSF is pretty tedious.  There are a number of well written batch files around to help automate the process.  The idea I had with WindowFixer was that I should be able to simply add a single line into my batch file to have my window be routinely placed in the center of my screen at the specified resolution.  The line looks like this (well, why not comments too):</p>
+
+<pre><code>:: Proper format for WindowFixer is:
+::  WindowFixer.exe "Window Title" width height
+
+WindowFixer.exe "Warcraft III" 1600 900
+</code></pre>
+
+<p>And voila!  It works just fine, was a quick application to write, and now I'm putting this here in case someone along the lines decides they too, could use a simple window fixer in their streaming process.  If you have any questions, comments, or concerns feel free to contact me at <a href="mailto:john_conder9@mymail.eku.edu">john_conder9@mymail.eku.edu</a>.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
