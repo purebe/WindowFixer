@@ -1,0 +1,17 @@
+/bin
+/obj
+/debug
+/Debug
+/release
+/Release
+/ipch
+*.user
+*.suo
+*.sln.cache
+*.sdf
+*.ncb
+*.aps
+/WindowFixer/Debug
+/WindowFixer/Release
+/WindowFixer/ipch
+/WindowFixer/WindowFixer/Debug

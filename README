@@ -1,0 +1,10 @@
+WindowFixer
+
+This is a simple utility application that allows you to center and resize a 
+given window.  You can simply run the application and manually enter in the
+required information, or, alternatively you can execute it with the following
+format:
+
+	WindowFixer.exe "Window Title" width height
+
+	(Example): WindowFixer.exe "MyDocument - Notepad" 500 300
